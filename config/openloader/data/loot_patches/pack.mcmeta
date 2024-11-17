@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Modifies loot tables. Made for Chemical Convergence.",
+    "pack_format": 15,
+    "supported_formats": [15, 15]
+  },
+  "patched": {
+    "format_version": 1
+  }
+}
