@@ -1,0 +1,5 @@
+{
+  "op": "replace",
+  "path": "/ore_veins_enabled",
+  "value": false
+}
