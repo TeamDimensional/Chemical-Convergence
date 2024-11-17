@@ -1,0 +1,16 @@
+filename = 'betterchunkloading-1.20.1-4.5.jar'
+name = 'Better chunk loading[Forge/Fabric]'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2f101565796a71af8984d46d98c0bc91118ea47b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5747090
+project-id = 899487

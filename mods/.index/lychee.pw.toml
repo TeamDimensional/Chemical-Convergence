@@ -1,0 +1,16 @@
+filename = 'Lychee-1.20.1-Forge-5.1.15.jar'
+name = 'Lychee (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b8611c7916f5bc074899a557c5813eedabbefee1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5875962
+project-id = 567403

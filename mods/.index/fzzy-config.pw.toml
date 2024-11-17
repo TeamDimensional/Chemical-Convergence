@@ -1,0 +1,16 @@
+filename = 'fzzy_config-0.5.4+1.20.1+forge.jar'
+name = 'Fzzy Config'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd276b3c6b17e9bb67448f0a4b4b82bd64bc8ee9b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5815849
+project-id = 1005914
