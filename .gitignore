@@ -19,6 +19,8 @@ usercache.json
 usernamecache.json
 config/spark/tmp
 kubejs/config/probejs.json
+patchouli_data.json
+config/jei
 
 # mods
 *.jar
@@ -28,3 +30,6 @@ rhino.local.properties
 config/packetfixer.properties
 kubejs/config/client.properties
 kubejs/config/common.properties
+
+# files that are often edited by players
+sidebar_buttons.json

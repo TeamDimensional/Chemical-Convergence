@@ -1,0 +1,16 @@
+filename = 'create_optical-0.2.1.jar'
+name = 'Create Optical'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8cceefabbfb67d43a1e90e19205d621728e9c2ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5750406
+project-id = 1007714

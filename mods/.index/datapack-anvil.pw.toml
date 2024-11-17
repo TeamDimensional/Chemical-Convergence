@@ -1,0 +1,16 @@
+filename = 'dpanvil-1.20.1-5.0.1.jar'
+name = 'DataPack Anvil'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '4e958098d04426b260af827bbda02035d14340bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4795000
+project-id = 432817
