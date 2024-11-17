@@ -33,6 +33,7 @@ kubejs/config/client.properties
 kubejs/config/common.properties
 
 # files that are often edited by players
+options.txt
 sidebar_buttons.json
 config/worldstripper
 
