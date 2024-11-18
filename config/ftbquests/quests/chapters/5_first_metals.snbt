@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5_first_metals"
+	group: "4062C51DC5FBFC24"
+	icon: "minecraft:iron_ingot"
+	id: "37603CA77BF4330F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C721627DF0666A6"]
+			id: "2766E405ED8BAD99"
+			tasks: [{
+				id: "51CE0CC345E3C4BE"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			title: "Inert Machine Frame"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2766E405ED8BAD99"]
+			id: "416D5DAB67D46F5C"
+			tasks: [{
+				id: "5B58A47D97941F1C"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Electrolyzer"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["416D5DAB67D46F5C"]
+			id: "120C0BDF9AEA7F45"
+			tasks: [{
+				id: "52C3A81869EE3B4C"
+				item: "chemlib:hydrogen"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2766E405ED8BAD99"]
+			id: "6FA3E9ED826942CF"
+			tasks: [{
+				id: "5AA614170726DB49"
+				item: "alchemistry:dissolver"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FA3E9ED826942CF"
+				"68FC46F6268A10EB"
+			]
+			id: "0BF72FF2CF68CEEA"
+			tasks: [{
+				id: "730E219C7B21E97B"
+				item: "chemlib:iron_oxide"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2766E405ED8BAD99"]
+			id: "77884C86030BB8EB"
+			tasks: [{
+				id: "1F5AED726ACA331E"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Chemical Reactor"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"77884C86030BB8EB"
+				"120C0BDF9AEA7F45"
+				"0BF72FF2CF68CEEA"
+			]
+			id: "245710DE7A1122D3"
+			tasks: [{
+				id: "488E1FCC622E7665"
+				item: "chemlib:iron"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3C168FDBAEB6570B"
+				"245710DE7A1122D3"
+			]
+			id: "63273F4BBC520A68"
+			shape: "gear"
+			tasks: [{
+				id: "24077CBE112B45D7"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7CDC71AD7650A890"
+				"1357B27107EF2CFE"
+			]
+			id: "650F6FDB0F5AACC7"
+			tasks: [{
+				id: "7D035282D43D0095"
+				item: "minecraft:cyan_dye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"650F6FDB0F5AACC7"
+				"6FA3E9ED826942CF"
+			]
+			id: "64579BDD4DAD9612"
+			tasks: [{
+				id: "2C776A56766974D1"
+				item: "chemlib:copper_chloride"
+				type: "item"
+			}]
+			title: "Copper (II) Chloride"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"64579BDD4DAD9612"
+				"4AE9319FE6F63478"
+			]
+			id: "1B36408DD2AA8E8F"
+			tasks: [{
+				id: "3C0B45BD0E0A2975"
+				item: "chemlib:copper_chloride"
+				type: "item"
+			}]
+			title: "Copper (I) Chloride"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"77884C86030BB8EB"
+				"1B36408DD2AA8E8F"
+			]
+			id: "63BEEE0D3CC20768"
+			tasks: [{
+				id: "5DA13ECE6931AB7D"
+				item: "chemlib:copper"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"63BEEE0D3CC20768"
+				"3C168FDBAEB6570B"
+			]
+			id: "2A310EB10527F81C"
+			shape: "gear"
+			tasks: [{
+				id: "27D94E3281F8D697"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "1357B27107EF2CFE"
+			tasks: [{
+				id: "0D395B011959815C"
+				item: "minecraft:cornflower"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "7CDC71AD7650A890"
+			tasks: [{
+				id: "444BF2A29AEFD142"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2766E405ED8BAD99"]
+			id: "3C168FDBAEB6570B"
+			tasks: [{
+				id: "4AD026CEF76CF193"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Ingot Former"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2766E405ED8BAD99"
+				"44CE2C1F623B2F32"
+			]
+			id: "4AE9319FE6F63478"
+			tasks: [{
+				id: "36F7A84E6C4708F0"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Chemical Heater"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "68FC46F6268A10EB"
+			tasks: [{
+				id: "69048B0FE5407B1D"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	title: "5. First Metals"
+}

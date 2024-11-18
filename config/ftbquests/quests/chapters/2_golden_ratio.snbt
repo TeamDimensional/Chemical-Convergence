@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2_golden_ratio"
+	group: "4062C51DC5FBFC24"
+	icon: "create:brass_ingot"
+	id: "05F6B7F81FA0B61F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5F9FA7E62F805220"]
+			id: "7FE05085038A3B6B"
+			tasks: [{
+				id: "1849811D35D5DBBC"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FE05085038A3B6B"]
+			id: "2A1548436CB7072E"
+			tasks: [{
+				id: "2147F1C908FD18E8"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FE05085038A3B6B"]
+			id: "760BF10279374C32"
+			tasks: [{
+				id: "204BBDE5952A1BAE"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FE05085038A3B6B"]
+			id: "6EB3841BE5381CFA"
+			tasks: [{
+				id: "636EC1A9B43EE2F4"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6EB3841BE5381CFA"
+				"2A1548436CB7072E"
+			]
+			id: "201C834D8CE54E0A"
+			tasks: [{
+				id: "2F13198E3CFEF7AD"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"201C834D8CE54E0A"
+				"6AB49C18C40741C1"
+			]
+			id: "63982DBC0258B68F"
+			tasks: [{
+				id: "506B73D5125A2408"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			title: "Ritual of the Forest"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["760BF10279374C32"]
+			id: "30B2CF77B789C6E4"
+			tasks: [{
+				id: "54610300F196C2C4"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30B2CF77B789C6E4"]
+			id: "6AB49C18C40741C1"
+			tasks: [{
+				id: "29AA5E49C7AB7120"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63982DBC0258B68F"]
+			id: "756FEC67C3D0B1BB"
+			tasks: [{
+				id: "63ED7BB38BEB5F2A"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63982DBC0258B68F"]
+			id: "2B1056EC9FBE8044"
+			tasks: [{
+				id: "123C7BE52351FEAB"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2B1056EC9FBE8044"
+				"756FEC67C3D0B1BB"
+				"0F36BE3C067D0681"
+			]
+			id: "1A724A96AEEF3E68"
+			tasks: [{
+				id: "0E8281F22A6ADF6B"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7FE05085038A3B6B"]
+			id: "3B37F2E796FC13FC"
+			tasks: [{
+				id: "3CC61ECE8801FF69"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3B37F2E796FC13FC"
+				"0F36BE3C067D0681"
+				"2A1548436CB7072E"
+			]
+			id: "2D4167ECF296CED3"
+			tasks: [{
+				id: "7D99F5FC7DBE2FF5"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D4167ECF296CED3"]
+			id: "0DEE61B232FA58A0"
+			tasks: [{
+				id: "317B15B29983C474"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1A724A96AEEF3E68"
+				"0DEE61B232FA58A0"
+			]
+			id: "66E3CBB664DEC8DF"
+			shape: "gear"
+			tasks: [{
+				id: "095DB6A20E4FE2EC"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6FA9C1CB606C886C"]
+			id: "0F36BE3C067D0681"
+			tasks: [{
+				id: "53E10643737DDD6C"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+	]
+	title: "2. Golden Ratio"
+}

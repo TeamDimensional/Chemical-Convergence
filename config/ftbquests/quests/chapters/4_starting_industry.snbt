@@ -1,0 +1,224 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4_starting_industry"
+	group: "4062C51DC5FBFC24"
+	icon: "industrialforegoing:plastic"
+	id: "4592EE2DCFA12A58"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35CA260C985C6674"]
+			id: "4A3D41D925AB294F"
+			tasks: [{
+				id: "6A7BBF48FF837741"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["527D2D170F0F66E5"]
+			id: "071FAEA0D4D3906B"
+			tasks: [{
+				id: "13BC723593DEE93E"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A3D41D925AB294F"]
+			id: "134D2B39CECED917"
+			tasks: [{
+				id: "7AE59481B13BD871"
+				item: "createlowheated:basic_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"134D2B39CECED917"
+				"071FAEA0D4D3906B"
+				"1B6BD2DEA3D24F63"
+			]
+			id: "6BF98D10A36F1D24"
+			tasks: [{
+				id: "3FA7A3EFC8C7D8A7"
+				item: "embers:ember_grit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6BF98D10A36F1D24"
+				"27EF31B82C2DF841"
+			]
+			id: "36573E1898CEEF78"
+			tasks: [{
+				id: "1DC7C28685CE2B3F"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36573E1898CEEF78"]
+			id: "6ADC694CFD5BC331"
+			tasks: [{
+				id: "3FC0A1A383279893"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36573E1898CEEF78"]
+			id: "051FF6230FE8CC74"
+			tasks: [{
+				id: "311147DBD7C2AF99"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6ADC694CFD5BC331"
+				"051FF6230FE8CC74"
+			]
+			id: "489621C191A2022D"
+			tasks: [{
+				id: "570B8BDE4742215C"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["489621C191A2022D"]
+			id: "04560A2AB1D8CBE6"
+			tasks: [{
+				id: "59B03DEDCB96632B"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BF98D10A36F1D24"]
+			id: "1DC1254B6E6A2B19"
+			tasks: [{
+				id: "39188ACA181CA878"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DC1254B6E6A2B19"]
+			id: "403502C2A96EC7B7"
+			tasks: [{
+				id: "0135FDA7FCC2786B"
+				item: "chemlib:sulfur_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"04560A2AB1D8CBE6"
+				"403502C2A96EC7B7"
+			]
+			id: "7C721627DF0666A6"
+			shape: "gear"
+			tasks: [{
+				id: "3338761D72E28D7F"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "527D2D170F0F66E5"
+			tasks: [{
+				id: "062AAA5C4F22DC6B"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BC3FB12429F7020"]
+			id: "1B6BD2DEA3D24F63"
+			tasks: [{
+				id: "534CFE7A5EA82A12"
+				item: "embers:stamper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C721627DF0666A6"]
+			id: "7137AB9176672DE9"
+			tasks: [{
+				id: "0134E26DB09355F0"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C721627DF0666A6"]
+			id: "5A15B389192D8B0F"
+			tasks: [{
+				id: "315EB84ACEDD16E6"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A3D41D925AB294F"]
+			id: "5BC3FB12429F7020"
+			tasks: [{
+				id: "4D87D6BBBAB6A450"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BC3FB12429F7020"]
+			id: "44CE2C1F623B2F32"
+			tasks: [{
+				id: "5ACFF1EB95A1DA0B"
+				item: "embers:mini_boiler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "4. Starting Industry"
+}

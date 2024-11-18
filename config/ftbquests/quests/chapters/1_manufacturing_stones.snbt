@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1_manufacturing_stones"
+	group: "4062C51DC5FBFC24"
+	icon: "botania:pure_daisy"
+	id: "1253BDDBF099FA5A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "68B7C8DADE1763A4"
+			tasks: [{
+				id: "624ED7AE7E81F026"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68B7C8DADE1763A4"]
+			id: "3AEBB1FBD9BA20E5"
+			tasks: [{
+				id: "6D9CE925D3AC452D"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68B7C8DADE1763A4"]
+			id: "6FA9C1CB606C886C"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "622A2E4D0003F221"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FA9C1CB606C886C"]
+			id: "631BB5232646C578"
+			tasks: [{
+				id: "6A3EE0D76826F151"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AEBB1FBD9BA20E5"]
+			id: "5273FF1EA807914C"
+			tasks: [{
+				id: "35041F6D91638C8C"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5273FF1EA807914C"]
+			id: "44E9290936C6AC0A"
+			tasks: [{
+				id: "2288EE0437EB1744"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44E9290936C6AC0A"]
+			id: "28FA0041EB195D97"
+			tasks: [{
+				id: "3CA5EFC297765B3E"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"631BB5232646C578"
+				"28FA0041EB195D97"
+			]
+			id: "2A32E9DBCF05370A"
+			tasks: [{
+				id: "1355CB2D4534FD61"
+				item: "elementalcraft:infuser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2A32E9DBCF05370A"]
+			id: "7FE0AC06D08A0131"
+			tasks: [{
+				id: "65C94AA405C46C2B"
+				item: "elementalcraft:whiterock"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7FE0AC06D08A0131"]
+			id: "053360E1D346B39E"
+			tasks: [{
+				id: "36D538D3AA9C0AC4"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["053360E1D346B39E"]
+			id: "5F9FA7E62F805220"
+			shape: "gear"
+			tasks: [{
+				id: "74B7A73A2397AA48"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3AEBB1FBD9BA20E5"]
+			id: "4A3D5807E79036A5"
+			tasks: [{
+				id: "162400A20A6E61E4"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+	]
+	title: "1. Manufacturing Stones"
+}

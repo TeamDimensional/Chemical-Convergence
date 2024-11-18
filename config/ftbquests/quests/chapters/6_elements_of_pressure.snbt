@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_elements_of_pressure"
+	group: "4062C51DC5FBFC24"
+	icon: "pneumaticcraft:air_compressor"
+	id: "1ADD5DE78ED8629B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63273F4BBC520A68"]
+			id: "13545A71825EF86C"
+			tasks: [{
+				id: "7B512D8088005821"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13545A71825EF86C"]
+			id: "19D2946BCC6F51EF"
+			tasks: [{
+				id: "1862D9D2A3D438C6"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19D2946BCC6F51EF"]
+			id: "0BDFF6F264A4BE93"
+			tasks: [{
+				id: "6E2C02226FFCC623"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BDFF6F264A4BE93"]
+			id: "77051D6774ACA227"
+			tasks: [{
+				id: "4FF184E3A5C5FE08"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Molten Redstone"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31B73C2E791EC7B5"]
+			id: "16DA408E844C7145"
+			tasks: [{
+				id: "77F8AA82D12CEACF"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A310EB10527F81C"]
+			id: "31B73C2E791EC7B5"
+			tasks: [{
+				id: "6188D226341B4919"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"77051D6774ACA227"
+				"16DA408E844C7145"
+			]
+			id: "292E4013080F887F"
+			tasks: [{
+				id: "7086DB6E9771615F"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["292E4013080F887F"]
+			id: "65A36C8603E489F2"
+			tasks: [{
+				id: "5F45978F220250CC"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65A36C8603E489F2"]
+			id: "593AA2C258190D7F"
+			tasks: [{
+				id: "54173D6FB22B655A"
+				item: "actuallyadditions:enori_crystal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["292E4013080F887F"]
+			id: "7F47D8AA6D8962DB"
+			tasks: [{
+				id: "4D37B0DE1F81978C"
+				item: "pneumaticcraft:pressure_chamber_interface"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31B73C2E791EC7B5"]
+			id: "7E17D1CBB2239CF4"
+			tasks: [{
+				id: "2E94ED49100D97D4"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0BC2AE7514EA0123"
+				"7E17D1CBB2239CF4"
+			]
+			id: "332815E3F2D82C00"
+			tasks: [{
+				id: "3BD080AA7AF82D27"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7F47D8AA6D8962DB"
+				"332815E3F2D82C00"
+				"593AA2C258190D7F"
+			]
+			id: "524DFC9364E88999"
+			shape: "gear"
+			tasks: [{
+				id: "003EB88447695B14"
+				item: "elementalcraft:inert_crystal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31B73C2E791EC7B5"]
+			id: "0BC2AE7514EA0123"
+			tasks: [{
+				id: "31134B85DADDF3D1"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+	]
+	title: "6. Elements of Pressure"
+}

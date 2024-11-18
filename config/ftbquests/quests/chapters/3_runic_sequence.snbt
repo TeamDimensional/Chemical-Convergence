@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3_runic_sequence"
+	group: "4062C51DC5FBFC24"
+	icon: "botania:rune_fire"
+	id: "44EF547F8717AF53"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A724A96AEEF3E68"]
+			id: "1DCCB75D0B1D9374"
+			tasks: [{
+				id: "093CE10410023951"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DCCB75D0B1D9374"]
+			id: "7F10CF14E97AA2E5"
+			tasks: [{
+				id: "5D3E5318F15004D0"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"06D45586E97A0CFC"
+				"7F10CF14E97AA2E5"
+			]
+			id: "1D840CBC576E8C99"
+			tasks: [{
+				id: "75CCD5FDCC9C06A7"
+				item: {
+					Count: 1
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66E3CBB664DEC8DF"]
+			id: "3D08AB7B1E0109DE"
+			tasks: [{
+				id: "31FF1C7AE14732F1"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1D840CBC576E8C99"
+				"3D08AB7B1E0109DE"
+			]
+			id: "3A4266F8266D12A3"
+			tasks: [{
+				id: "3CD8007023379526"
+				item: "malum:tainted_rock"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A4266F8266D12A3"]
+			id: "718BD658C6B343D9"
+			tasks: [{
+				id: "6320F281C4C102DB"
+				item: "malum:tainted_rock_tablet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["718BD658C6B343D9"]
+			id: "6CC8EF803D750B40"
+			tasks: [{
+				id: "15EEF939E32EC6D4"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0F36BE3C067D0681"]
+			id: "06D45586E97A0CFC"
+			tasks: [{
+				id: "1ABB200AA4EF7901"
+				item: {
+					Count: 1
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6CC8EF803D750B40"]
+			id: "4C7049DB477C732E"
+			tasks: [{
+				id: "3E7639F6C9A19375"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6CC8EF803D750B40"]
+			id: "0522B8185C085475"
+			tasks: [{
+				id: "000E9C6BD10A729F"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"00DE63A0246D366C"
+				"4C7049DB477C732E"
+			]
+			id: "5F50EA698053B1DB"
+			tasks: [{
+				id: "042F6F3D373D8203"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F50EA698053B1DB"]
+			id: "27EF31B82C2DF841"
+			shape: "gear"
+			tasks: [{
+				id: "4F376108B5D28CC1"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F50EA698053B1DB"]
+			id: "40A1DFE9DF8101DF"
+			tasks: [{
+				id: "2D2A47077A3B31EA"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"40A1DFE9DF8101DF"
+				"27EF31B82C2DF841"
+			]
+			id: "5DE602ADAD8D0A22"
+			tasks: [{
+				id: "724BDD835EEE5DCA"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27EF31B82C2DF841"]
+			id: "14841DF6C402DAFF"
+			tasks: [{
+				id: "042D2A4DD106AC63"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CC8EF803D750B40"]
+			id: "00DE63A0246D366C"
+			tasks: [{
+				id: "2037A738CD0607DB"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0522B8185C085475"
+				"4C7049DB477C732E"
+			]
+			id: "35CA260C985C6674"
+			shape: "gear"
+			tasks: [{
+				id: "055B11F3F97258EF"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+	]
+	title: "3. Runic Sequence"
+}
