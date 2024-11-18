@@ -1,5 +1,5 @@
 CCUtils.run("no_worldgen", () => {
-    const version = 2
+    const version = 3
     const disabled_files = [
         // ores
         ["minecraft", "placed_feature/amethyst_geode"],
@@ -39,6 +39,8 @@ CCUtils.run("no_worldgen", () => {
         ["malum", "placed_feature/quartz_geode"],
         ["actuallyadditions", "placed_feature/ore_black_quartz"],
         ["elementalcraft", "placed_feature/inert_crystal_ore_middle"],
+        ["embers", "placed_feature/ore_silver_placer"],
+        ["embers", "placed_feature/ore_lead_placer"],
 
         // structures
         ["minecraft", "placed_feature/monster_room_deep"],
@@ -60,6 +62,7 @@ CCUtils.run("no_worldgen", () => {
         ["minecraft", "structure_set/villages"],
         ["minecraft", "structure_set/woodland_mansions"],
         ["elementalcraft", "structure_set/source_altar"],
+        ["embers", "structure_set/small_ruin"],
 
         // other
         ["minecraft", "placed_feature/underwater_magma"],
