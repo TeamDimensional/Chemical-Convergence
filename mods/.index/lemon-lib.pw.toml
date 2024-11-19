@@ -1,0 +1,16 @@
+filename = 'lemonlib-4.0.1.jar'
+name = 'Lemon Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '51f1819ae09e3e62802c72475fa4db659a69e449'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4640910
+project-id = 471136
