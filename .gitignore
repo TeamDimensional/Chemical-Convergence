@@ -22,6 +22,7 @@ minecraft/kubejs/config/probejs.json
 minecraft/patchouli_data.json
 minecraft/config/jei
 minecraft/malum_extra.json
+minecraft/.mixin.out
 
 # mods
 *.jar
