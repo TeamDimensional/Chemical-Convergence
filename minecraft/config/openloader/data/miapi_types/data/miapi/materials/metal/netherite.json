@@ -1,0 +1,44 @@
+{
+    "key": "netherite",
+    "translation": "miapi.material.metal.netherite",
+    "icon": "textures/item/netherite_ingot.png",
+    "groups": [
+        "metal"
+    ],
+    "hardness": 7,
+    "density": 2.8,
+    "flexibility": 3,
+    "enchantability": 15,
+    "durability": 2831,
+    "armor_durability_offset": -2139,
+    "color": "695e5f",
+    "color_palette": {
+        "type": "grayscale_map",
+        "colors": {
+            "24": "231012",
+            "68": "312727",
+            "107": "49283F",
+            "150": "3C3739",
+            "190": "50434D",
+            "216": "5C555C",
+            "255": "847A84"
+        }
+    },
+    "properties": {
+        "default": {
+            "fireProof": true
+        }
+    },
+    "textures": [
+        "netherite",
+        "metallic"
+    ],
+    "mining_speed": 12,
+    "mining_level": 4,
+    "items": [
+        {
+            "item": "minecraft:netherite_ingot",
+            "value": 1.0
+        }
+    ]
+}
