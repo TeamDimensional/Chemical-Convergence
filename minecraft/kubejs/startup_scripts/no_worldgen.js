@@ -1,5 +1,5 @@
 CCUtils.run("no_worldgen", () => {
-    const version = 3
+    const version = 4
     const disabled_files = [
         // ores
         ["minecraft", "placed_feature/amethyst_geode"],
@@ -63,6 +63,7 @@ CCUtils.run("no_worldgen", () => {
         ["minecraft", "structure_set/woodland_mansions"],
         ["elementalcraft", "structure_set/source_altar"],
         ["embers", "structure_set/small_ruin"],
+        ["ae2", "structure_set/meteorite"],
 
         // other
         ["minecraft", "placed_feature/underwater_magma"],
@@ -101,7 +102,7 @@ CCUtils.run("no_worldgen", () => {
             }
             JsonIO.write(`kubejs/data/${mod}/worldgen/${f}.json`, noOp)
         }
-        
+
         return true
     })
 })
